@@ -1,0 +1,14 @@
+{
+  "name": "glass-break",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "node --experimental-strip-types src/check.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.3.5"
+  }
+}

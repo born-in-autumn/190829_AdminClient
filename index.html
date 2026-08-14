@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>玻璃</title>
+  </head>
+  <body>
+    <video id="cam" playsinline muted autoplay></video>
+    <canvas id="pixels"></canvas>
+    <div id="glass" hidden></div>
+    <canvas id="cracks" hidden></canvas>
+    <div id="shards"></div>
+    <div id="gate">
+      <button type="button" id="start">点一下开始</button>
+      <p>对着镜头，一直点这块玻璃</p>
+    </div>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>
